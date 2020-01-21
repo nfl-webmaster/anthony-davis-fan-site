@@ -11,7 +11,7 @@ import { Helmet } from 'react-helmet';
 import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
-import FeaturePage from 'containers/FeaturePage/Loadable';
+import About from 'containers/About/Loadable';
 import Statistics from 'containers/Statistics/Loadable';
 import Outreach from 'containers/Outreach/Loadable';
 import Forums from 'containers/Forums/Loadable';
@@ -32,7 +32,7 @@ const App = () => (
     <Header />
     <Switch>
       <Route exact path="/" component={HomePage} />
-      <Route path="/features" component={FeaturePage} />
+      <Route path="/about" component={About} />
       <Route path="/statistics" component={Statistics} />
       <Route path="/outreach" component={Outreach} />
       <Route path="/forums" component={Forums} />
