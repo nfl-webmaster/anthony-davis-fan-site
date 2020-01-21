@@ -7,7 +7,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import './style.scss';
 
-export default class FeaturePage extends React.Component {
+export default class Forums extends React.Component {
   // eslint-disable-line react/prefer-stateless-function
 
   // Since state and props are static,
@@ -18,30 +18,26 @@ export default class FeaturePage extends React.Component {
 
   render() {
     return (
-      <div className="feature-page">
+      <div className="forums-page">
         <Helmet>
-          <title>Feature Page</title>
+          <title>Forums Page</title>
           <meta
             name="description"
-            content="Feature page of React.js Boilerplate application"
+            content="Forums page of Anthony Davis Fans Page"
           />
         </Helmet>
-        <h1>Features</h1>
+        <h1>Forums</h1>
         <ul>
           <li>
-            <p className="title">Next generation JavaScript</p>
+            <p className="title">What do you want to talk about?</p>
             <p>
-              Use template strings, object destructuring, arrow functions, JSX
-              syntax and more, today.
+              Egestas integer eget aliquet nibh praesent. Bibendum neque egestas congue quisque egestas diam in arcu. Aliquam sem et tortor consequat id porta nibh. Semper risus in hendrerit gravida. Nam aliquam sem et tortor consequat id porta.
             </p>
           </li>
           <li>
             <p className="title">Instant feedback</p>
             <p>
-              Enjoy the best DX and code your app at the speed of thought! Your
-              saved changes to the CSS and JS are reflected instantaneously
-              without refreshing the page. Preserve application state even when
-              you update something in the underlying code!
+              Egestas integer eget aliquet nibh praesent. Bibendum neque egestas congue quisque egestas diam in arcu. Aliquam sem et tortor consequat id porta nibh. Semper risus in hendrerit gravida. Nam aliquam sem et tortor consequat id porta.
             </p>
           </li>
           <li>
@@ -55,8 +51,7 @@ export default class FeaturePage extends React.Component {
           <li>
             <p className="title">The Best Test Setup</p>
             <p>
-              Automatically guarantee code quality and non-breaking changes.
-              (Seen a react app with 99% test coverage before?)
+Egestas integer eget aliquet nibh praesent. Bibendum neque egestas congue quisque egestas diam in arcu. Aliquam sem et tortor consequat id porta nibh. Semper risus in hendrerit gravida. Nam aliquam sem et tortor consequat id porta.
             </p>
           </li>
         </ul>
