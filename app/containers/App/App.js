@@ -24,8 +24,8 @@ import './style.scss';
 const App = () => (
   <div className="app-wrapper">
     <Helmet
-      titleTemplate="%s - React.js Boilerplate"
-      defaultTitle="React.js Boilerplate"
+      titleTemplate="%s - Anthony Davis Fan Page"
+      defaultTitle="Anthony Davis Fan Page"
     >
       <meta name="description" content="Anthony Davis Fan Page" />
     </Helmet>
